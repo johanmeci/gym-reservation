@@ -63,11 +63,12 @@ export const Navbar = styled.nav`
     background-color: transparent;
     font-size: .7rem;
     font-weight: 700;
+    line-height: 1;
     transition: all .3s ease-in-out;
     position: relative;
 
     svg {
-      margin-right: .8rem;
+      margin-right: 1rem;
       width: 16px;
       height: 16px;
     }
@@ -116,5 +117,7 @@ export const PanelContainer = styled.div`
 `;
 
 export const TitlePanel = styled.h4`
-  margin: 0;
+  margin: 0 0 2rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid ${props => props.theme.colors.borderColor};
 `;

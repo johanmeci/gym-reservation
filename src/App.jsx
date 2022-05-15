@@ -21,7 +21,8 @@ function App() {
     <MainContainer>
       <Sidebar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<CreateReservation />} />
         <Route path="/create" element={<CreateReservation />} />
         <Route path="/*" element={<Error404 />} />
       </Routes>

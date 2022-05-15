@@ -5,7 +5,8 @@ export default {
     backgroundPrimaryAlt: "rgb(11 41 151 / 10%)",
     backgroundSecondary: "#2a21a5",
     backgroundThird: "#6511c2",
-    colorWhite: "#f5f8f1"
+    colorWhite: "#f5f8f1",
+    borderColor: "#DEDEDE"
   },
   // Breakpoints for responsive design
   breakpoints: {

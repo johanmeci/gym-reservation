@@ -1,0 +1,38 @@
+.react-calendar {
+  width: 255px;
+  padding: .3rem;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  border-color: #DEDEDE;
+}
+
+.react-calendar__navigation {
+  margin-bottom: 0;
+}
+
+.react-calendar__month-view__weekdays {
+  text-transform: capitalize;
+}
+
+.react-calendar__month-view__weekdays abbr {
+  text-decoration: none;
+}
+
+.react-calendar button {
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
+  width: 34px;
+  height: 34px;
+  transition: all .3s ease-in-out;
+}
+
+.react-calendar .react-calendar__tile--active,
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #0b2997;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #d3d3d3;
+}

@@ -1,13 +1,15 @@
 import React from "react";
 import Reservation from "../components/Reservation";
 
-import { Container } from "../styles/LayoutStyles";
+import { Container, PanelContainer, TitlePanel } from "../styles/LayoutStyles";
 
 const Home = () => {
   return (
     <Container>
-      <p>Home</p>
-      <Reservation/>
+      <PanelContainer>
+        <TitlePanel>Reservation List</TitlePanel>
+        <Reservation/>
+      </PanelContainer>
     </Container>
   );
 }

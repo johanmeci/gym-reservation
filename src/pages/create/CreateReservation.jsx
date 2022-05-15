@@ -1,13 +1,15 @@
 import React from "react";
 import Calendar from "../../components/Calendar";
 
-import { Container } from "../../styles/LayoutStyles";
+import { Container, PanelContainer, TitlePanel } from "../../styles/LayoutStyles";
 
 const CreateReservation = () => {
   return (
     <Container>
-      <p>Form create reservation</p>
-      <Calendar />
+      <PanelContainer>
+        <TitlePanel>Calendar</TitlePanel>
+        <Calendar />
+      </PanelContainer>
     </Container>
   );
 }

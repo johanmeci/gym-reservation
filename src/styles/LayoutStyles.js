@@ -12,11 +12,12 @@ export const MainContainer = styled.main`
 `;
 
 export const Navbar = styled.nav`
-
   background-color: white;
   border-radius: 8px 0 0 8px;
   color: black;
   padding-top: 1.3rem;
+  box-shadow: 4px 0 8px -5px rgb(0 0 0 / 14%);
+  z-index: 10;
 
   .containerLogo {
     display: flex;
@@ -99,4 +100,21 @@ export const Container = styled.div`
   padding: 1rem;
   background-color: ${props => props.theme.colors.colorWhite};
   border-radius: 0 8px 9px 0;
+`;
+
+export const PanelContainer = styled.div`
+  background-color: white;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px -5px rgb(0 0 0 / 14%);
+
+  p {
+    margin: 0;
+  }
+`;
+
+export const TitlePanel = styled.h4`
+  margin: 0;
 `;

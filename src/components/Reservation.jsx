@@ -2,7 +2,7 @@ import React from "react";
 
 const Reservation = () => {
   return (
-    <p>Reservation</p>
+    <p>content list</p>
   );
 }
 

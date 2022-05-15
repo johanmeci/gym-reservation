@@ -13,8 +13,8 @@ const Sidebar = () => {
         <span className="logoName">Gym<span className="txtLogo">Calendar</span></span>
       </div>
       <p className="navbarTitle">Main Menu</p>
-      <NavLink className={(navData) => "linkMenu " + (navData.isActive ? "active" : "")} to="/"><FaRegCalendar/> Reservation List</NavLink>
-      <NavLink className={(navData) => "linkMenu " + (navData.isActive ? "active" : "")} to="/create"><FaRegCalendarPlus/> Create reservation</NavLink>
+      <NavLink className={(navData) => "linkMenu " + (navData.isActive ? "active" : "")} to="/"><FaRegCalendar/> Reservation</NavLink>
+      <NavLink className={(navData) => "linkMenu " + (navData.isActive ? "active" : "")} to="/create"><FaRegCalendarPlus/> Create</NavLink>
     </Navbar>
   );
 }
